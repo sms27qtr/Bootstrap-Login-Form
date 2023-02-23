@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    background-color: slategrey;
+    border-radius: 30px;
+    box-shadow: 12px 12px 27px;
+    width: auto;
+    height: 37rem;
+}
+
+img{
+    width: 110%;
+    height: 37rem;
+    border-top-left-radius: 229px;
+    border-bottom-right-radius: 300px;
+    
+}
+.login h1{
+    font-size: 4rem;
+    font-weight: 600;
+    color: black;
+    text-shadow:
+		-5px -1px 0 rgb(255, 255, 255),
+		1px -1px 0 rgb(255, 255, 255),
+		-1px 1px 0 rgb(255, 255, 255),
+		1px 1px 0 rgb(255, 255, 255);
+}
+.inp{
+    height: 50px;
+    width: 70%;
+    outline: none;
+    border-radius: 40px;
+    border-color: black;
+    box-shadow: 16px 9px 30px 19px rgba(0, 0, 0, 0.35);
+}
+.login p{
+    color: white;
+    font-weight: 500;
+}
+/* .login button{
+    height: 30px;
+    width: 70px;
+    color: white;
+    background-color: black;
+    font-weight: 700;
+    border-radius: 30px;
+
+} */
+
+.btn1{
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+}
+
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
+
+.fa-facebook{
+    padding: 10px;
+    font-size: 30px;
+    color: #3b5998;
+}
+.fa-facebook:hover{
+    color: white;
+}
+
+.fa-instagram{
+    padding: 10px;
+    font-size: 30px;
+}
+.fa-instagram:hover{
+    color: white;
+}
+.fa-google{
+    padding: 10px;
+    font-size: 30px;
+}
+.fa-google:hover{
+    color: white;
+}
+.fa-linkedin{
+    padding: 10px;
+    font-size: 30px;
+}
+.fa-linkedin:hover{
+    color: white;
+}
